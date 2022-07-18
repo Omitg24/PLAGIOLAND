@@ -42,7 +42,9 @@
 			  Así tendréis 4 GBs dedicados al Minecraft.			
 		Volver a la carpeta "Modpack".
 		Copiar la carpeta "mods" a la carpeta ".minecraft" abierta 
-		anteriormente.
+		anteriormente.		
+		En la carpeta ".minecraft", abrir la carpeta "config" y pegar el
+		fichero "ordinarycoins.cfg".		
 		
 		**ATENCIÓN: Una vez hecho todo esto, recomiendo ejecutar el Minecraft
 		una vez, y crear un mundo, simplemente para comprobar que todo está
