@@ -33,7 +33,7 @@
 			* En nombre de la instalación, escribir "PLAGIOLAND".
 			* En versión, buscar la version de forge (Si se busca 
 			  "forge" debería de aparecer la version:
-			  "release 1.12.2-forge-14.23.5.2855")).
+			  "release 1.12.2-forge-14.23.5.2855").
 			* Si se tienen más de 8 de GBs de RAM, se recomienda aumentar 
 			  la cantidad de RAM dedicada a el Minecraft, para ello se
 			  debe presionar sobre "Mas opciones", ir a "Argumentos JVM"
