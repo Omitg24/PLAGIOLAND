@@ -1,0 +1,175 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:logo.png",
+            "posX" : -160,
+            "posY" : 30,
+            "width" : 320,
+            "height" : 75,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 0,
+            "height" : 0,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "null",
+            "posX" : -20,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : " "
+        },
+        
+        "background":
+        {
+            "image" : "",
+			"slideshow" : 
+			{
+				"images" : ["modpack:wallpapers/wallpaper_0.png","modpack:wallpapers/wallpaper_1.png", "modpack:wallpapers/wallpaper_2.png", 
+				"modpack:wallpapers/wallpaper_3.png", "modpack:wallpapers/wallpaper_4.png", 
+				"modpack:wallpapers/wallpaper_5.png", "modpack:wallpapers/wallpaper_6.png", 
+				"modpack:wallpapers/wallpaper_7.png", "modpack:wallpapers/wallpaper_8.png", 
+				"modpack:wallpapers/wallpaper_9.png", "modpack:wallpapers/wallpaper_10.png", 
+				"modpack:wallpapers/wallpaper_11.png", "modpack:wallpapers/wallpaper_12.png", 
+				"modpack:wallpapers/wallpaper_13.png", "modpack:wallpapers/wallpaper_14.png", 
+				"modpack:wallpapers/wallpaper_15.png", "modpack:wallpapers/wallpaper_16.png", 
+				"modpack:wallpapers/wallpaper_17.png", "modpack:wallpapers/wallpaper_18.png",
+				"modpack:wallpapers/wallpaper_19.png", "modpack:wallpapers/wallpaper_20.png",
+				"modpack:wallpapers/wallpaper_21.png"],
+				"displayDuration" : 40,
+				"fadeDuration" : 30,
+				"gradient" : true
+			}
+        }
+    }
+}
